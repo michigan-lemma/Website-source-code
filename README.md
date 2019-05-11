@@ -1,16 +1,6 @@
 # Website-source-code
 
-## Usage
-
-Open up Terminal.
-
-### Clone Directory
-
-Clone this repo to your favorite location on your local machine:
-
-```bash
-git clone https://github.com/michigan-lemma/Website-source-code.git
-```
+## First Time Setup
 
 ### Install Python
 
@@ -34,6 +24,17 @@ Note: Not verified if this command works.
 
 Not sure how to make this work on Windows.
 
+## Usage
+
+### Clone Directory
+
+Open up Terminal. Clone this repo to your favorite location on your local machine:
+
+```
+cd <enter path to your favorite folder here>
+git clone https://github.com/michigan-lemma/Website-source-code.git
+```
+
 ### Run Python server
 
 ```
@@ -42,4 +43,4 @@ python3 -m http.server 8000
 
 ### View the website
 
-Type localhost:8000 in your browser search bar.
+Type `localhost:8000` in your browser search bar.
