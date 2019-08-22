@@ -60,6 +60,34 @@ p {
 	font-size: 16px;
 }
 
+table {
+	/*font-family: verdana, arial, sans-serif;
+	font-size: 11px;*/
+	border-width: 1px;
+	border-color: #ccc;
+	border-collapse: collapse;
+}
+
+table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ccc;
+	background-color: #B2CFD8;
+}
+
+table tr:hover td {
+	background-color: #DFEBF1;
+}
+ 
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ccc;
+	background-color: #ffffff;
+}
+
 em {
 	font-weight: 300;
 	font-style: italic;
