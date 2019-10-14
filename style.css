@@ -31,6 +31,22 @@ body {
 
 /* Basic Styles ------------------------------------------------------------- */
 
+.left {
+  float: left;
+  width: 33%;
+}
+
+.column {
+  float: left;
+  width: 47%;
+}
+
+.right {
+  float: left;
+  width: 20%;
+}
+
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: var(--serif-fonts);
 	font-weight: normal;
